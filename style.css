@@ -1,0 +1,72 @@
+/* style.css */
+
+/* Global styles */
+body {
+  
+  
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-link {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #ff9f00;
+  }
+  
+  /* Header styles */
+  .header {
+    background-image: url('image/BG6.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* Additional styles for the rest of your HTML content */
+  
+  
